@@ -1,0 +1,22 @@
+// README-env: Non-secret info about .env file
+
+// .env holds secrets that shouldn't go to github
+// Note that they are still present in the build, so aren't truly secret.
+// Just not as easy to find, and not in source code.
+
+// For this to work, follow:
+// https://www.pluralsight.com/guides/hiding-secret-keys-in-create-react-app
+// and
+// https://stackoverflow.com/questions/49579028/adding-an-env-file-to-react-project
+// That is, run
+//   npm install dotenv --save
+// then add this to app file which uses the values
+//   require('dotenv').config();
+// then define keys starting with REACT_APP_ in .env
+//   REACT_APP_keyname='secret value'
+// and add .env to .gitignore,
+// then use the value with
+//   const API_KEY = process.env.REACT_APP_keyname;
+
+// Visual Crossing weather API for visualcrossing.com
+REACT_APP_VISUAL_CROSSING_API_KEY=''

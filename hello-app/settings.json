@@ -1,0 +1,15 @@
+{
+    "sync.gist": "efd77d4881bae9d98106a1b6dca88b95",
+    "workbench.iconTheme": "vscode-icons",
+    "projectManager.git.baseFolders": [
+        "C:\\Documents\\GitHub"
+    ],
+    "git.autofetch": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "sync.autoDownload": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true
+}
